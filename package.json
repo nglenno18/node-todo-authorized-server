@@ -7,8 +7,6 @@
     "start": "node server/server.js",
     "test": "export NODE_ENV=test || SET \"NODE_ENV=test\"&& mocha server/**/*.test.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
@@ -23,4 +21,7 @@
   },
   "engines": {
     "node": "6.9.1"
+  },
+  "author": "",
+  "license": "ISC"
 }
